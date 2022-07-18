@@ -22,4 +22,13 @@ console.log("multiplication of two numbers:"+multiply(5,10))
 let a=function sub(num1,num2){
     return num1-num2;
 }
-console.log(a(10,2))
+console.log(a(10,2));
+// IIFE -> immediately invoke function expression
+(function(){
+    console.log("Hello from IIFE");
+})();
+
+// IIFE with parameter
+(function(num1,num2){
+    console.log(num1/num2);
+})(50,5);
