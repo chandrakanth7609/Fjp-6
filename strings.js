@@ -39,3 +39,9 @@ console.log(fullName);
 //split -> return arr 
 let splitted =  str.split(" ");
 console.log(splitted)
+
+// homework trim() function
+let text="       hello world";
+console.log("before trim: ",text)
+let result=text.trim();
+console.log("after trim:",result);
