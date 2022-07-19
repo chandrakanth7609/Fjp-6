@@ -32,3 +32,5 @@ console.log(a(10,2));
 (function(num1,num2){
     console.log(num1/num2);
 })(50,5);
+
+
