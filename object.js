@@ -34,5 +34,24 @@ console.log(capAmerica.friends);
 console.log(capAmerica.sayHi);
 
 //call from say hii
-capAmerica.sayHi();                         function call
+capAmerica.sayHi();                        // function call
 console.log(capAmerica.address.state);
+
+console.log("object before update : ",capAmerica)
+// add a new key to object
+capAmerica.Movies = ['Avengers','Civil War','Endgame'];
+console.log("object after update : ",capAmerica);
+
+//delete a key 
+delete capAmerica.Movies;
+
+capAmerica.isAvenger = true;
+
+capAmerica.address.state = 'New York'
+console.log(capAmerica);
+
+//second method to access a key
+
+console.log(capAmerica.Name);
+console.log(capAmerica['Name']);
+console.log(capAmerica['address']['city'])
